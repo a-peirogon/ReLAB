@@ -1,0 +1,17 @@
+# Experiments directory
+# 
+# Each training run creates a subdirectory here, e.g.:
+#
+#   experiments/
+#   ├── dqn_run/
+#   │   ├── train_log.csv
+#   │   ├── checkpoint_best.pt
+#   │   ├── checkpoint_ep500.pt
+#   │   └── checkpoint_final.pt
+#   └── qlearning_run/
+#       ├── train_log.csv
+#       ├── checkpoint_best.pkl
+#       └── checkpoint_final.pkl
+#
+# Controlled by TrainConfig.experiment_dir in configs/config.py
+# or by --exp flag on run_train.py
