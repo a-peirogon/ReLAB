@@ -11,9 +11,3 @@ Gymnasium-based environment for RL research/experiments
     <td align="center"><b>Robot navigation</b></td>
   </tr>
 </table>
-
-## Experimentos
-
-**Snake** — observación vectorial pura (11 floats: peligro adelante/derecha/izquierda, dirección actual, posición relativa de la comida). Agentes utilizados: Q-learning tabular, DQN.
-
-**Robot_nav** — robot de tracción diferencial debe alcanzar una meta evadiendo obstáculos móviles en un mundo 2D continuo. Incluye un DQN entrenable, también DWA (*Dynamic Window Approach*).
